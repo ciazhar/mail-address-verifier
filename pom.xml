@@ -14,9 +14,29 @@
   <properties>
       <kotlin.version>1.2.10</kotlin.version>
       <junit.version>4.12</junit.version>
+      <dnsjava.version>2.1.8</dnsjava.version>
   </properties>
 
   <dependencies>
+      <!--compile 'eu.rekisoft.android:editmail:+@aar'-->
+      <!--compile 'eu.rekisoft.android:uiworker:1.0.+'-->
+      <!--compile 'eu.rekisoft.android:lazyworker:1.0.+'-->
+      <!--compile 'dnsjava:dnsjava:+'-->
+      <dependency>
+          <groupId>ma.omaroun.snippet</groupId>
+          <artifactId>emailcheck</artifactId>
+          <version>1.0.0</version>
+      </dependency>
+    <dependency>
+      <groupId>dnsjava</groupId>
+      <artifactId>dnsjava</artifactId>
+      <version>${dnsjava.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>eu.rekisoft.android</groupId>
+      <artifactId>editmail</artifactId>
+      <version>1.0.1</version>
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
